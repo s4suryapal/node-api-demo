@@ -39,7 +39,21 @@ npm install
 npm start
 ```
 
-### API Documentation 
+### Test Running Server
+
+Once Server started you can verify id by visiting below url : 
+
+```
+http://localhost:3000
+```
+
+On visiting above url you should get message :
+
+```
+Welcome to node rest api demo
+```
+
+### API Documentation (Open API)
 
 Once node server started you can visit below url to access api documentation :
 

@@ -36,7 +36,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', async(req, res) => {
   
-  res.send('Welcome to node default project');
+  res.send('Welcome to node rest api demo');
 });
 app.use('/api-doc',swaggerUI.serve,swaggerUI.setup(swaggerDoc,{explorer : true}));
 
