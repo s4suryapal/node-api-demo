@@ -1,0 +1,37 @@
+{
+  "name": "noe-api-demo",
+  "version": "1.0.0",
+  "description": "This is default node project that can be use to start any new project with nodejs as backend.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s4suryapal/node-api-demo.git"
+  },
+  "author": "Suryapalsinh Chudasama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/s4suryapal/node-api-demo/issues"
+  },
+  "homepage": "https://github.com/s4suryapal/node-api-demo#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "fs": "0.0.1-security",
+    "helmet": "^4.4.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.15",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7",
+    "redis": "^3.0.2",
+    "swagger-ui-express": "^4.1.6",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
