@@ -4,17 +4,14 @@ This is default node project that can be use to start any new project with nodej
 
 ## Getting Started
 
-In this project i have used all required modules.
-
-Modules Used : 
+In this demo project i have used all required modules, list of modules are as below :
 
   - NPM Libraries
-    - Nodemon for Debugging and keeping track of changed files
+    <!-- - Nodemon for Debugging and keeping track of changed files -->
     - Express for initiating the server
     - Mongoose for interracting with MongoDB
-    - BodyParser to parse request body
     - Morgan for Rest Api Access Log
-    - Dotenv for storing environment vriables
+    - Dotenv for storing environment variable (Can be used in development mode only)
     - Winston for logs
     - Helmet for security headers
     - Compression for compression codings (gzip,deflate) 
@@ -42,7 +39,14 @@ npm install
 npm start
 ```
 
+### API Documentation 
 
-## Authors
+Once node server started you can visit below url to access api documentation :
+
+```
+http://localhost:3000/api-doc
+```
+
+## Author
 
 * **Suryaplsinh Chudasama** 
