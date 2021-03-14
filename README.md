@@ -1,8 +1,8 @@
-# node-api-demo
-
-Node Js Rest Api Demo By Suryapalsinh Chudasama
+# Node Js Rest Api Demo
 
 This is default node project that can be use to start any new project with nodejs as backend.
+
+## Getting Started
 
 In this project i have used all required modules.
 
@@ -20,5 +20,12 @@ Modules Userd :
   - JsonWebToken for Security
   - Express-async-errors : to handle async errors
 
+### Prerequisites
+
+What things you need to install the software and how to install them
+
+```
+Give examples
+```
 
 
