@@ -9,8 +9,8 @@ In this project i have used all required modules.
 Modules Userd : 
 
   - Nodejs
-  - Express Js
-  - MongoDB For database
+  - Express Js for initiating the server
+  - Mongoose for interracting with MongoDB
   - Morgan for Rest Api Access Log
   - Dotenv for storing envirnment vriables
   - Winston for logs
@@ -22,10 +22,19 @@ Modules Userd :
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+What things you need to install the software :
+
+ - Nodejs v14.16.0
+ - NPM 6.14.11
+ - MongoDB server version: 4.4.3
+ - Any IDE (VS Code Recommended) 
+
+
+### Installation
 
 ```
-Give examples
+git clone git@github.com:s4suryapal/node-api-demo.git .
+cd node-api-demo
+npm install
+npm start
 ```
-
-
